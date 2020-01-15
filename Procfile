@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/yuque-web-hook-1.0-SNAPSHOT.jar --spring.profiles.active=prod
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/tools-0.0.1-SNAPSHOT.jar
