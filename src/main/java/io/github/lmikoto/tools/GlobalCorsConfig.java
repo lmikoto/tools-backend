@@ -13,7 +13,7 @@ public class GlobalCorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:8000","https://lmikoto.github.io","https://miko-tools.netlify.com")
+                        .allowedOrigins("http://localhost:8000","https://lmikoto.github.io","https://miko-tools.netlify.com","https://t.lmikoto.com")
                         .allowCredentials(true)
                         .allowedMethods("GET","POST", "PUT", "DELETE")
                         .allowedHeaders("*")
